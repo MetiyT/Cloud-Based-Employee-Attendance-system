@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-=342@u5wg3929d5ytk(ld=rg*ylzdj-#ogp5n4$k$186=sy8!j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['cloudbasedattendacnesystem.azurewebsites.net','*']
+
+# ...
+
+# Security settings
+CSRF_TRUSTED_ORIGINS = ['https://cloudbasedattendacnesystem.azurewebsites.net']
 
 
 # Application definition
